@@ -5,6 +5,6 @@ apt upgrade
 apt install git
 apt install toilet
 git clone https://github.com/rooted-cyber/Install-Ngrok
-cd Ngrok-Install
+cd Install-Ngrok
 bash install.sh
 </pre>
