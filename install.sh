@@ -41,7 +41,7 @@ ngrok_server() {
 	
 	clear
 printf "\033[92m [+] Downloading requirements\n"
-pkg install toilet > /dev/null 2>&1
+pkg install toilet
 printf "\033[93m Download complete"
 sleep 1
 clear
@@ -58,7 +58,7 @@ echo
 echo -e "\033[92m [+] Installing requirement"
 echo
 sleep 2
-command -v wget > /dev/null 2>&1 || pkg install wget > /dev/null 2>&1
+command -v wget > /dev/null 2>&1 || pkg install wget
 echo
 sleep 1
 echo -e "\033[93m [+] Downloading ngrok......"
