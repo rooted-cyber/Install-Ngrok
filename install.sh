@@ -64,7 +64,10 @@ sleep 1
 echo -e "\033[93m [+] Downloading ngrok......"
 sleep 2
 echo
-wget https://github.com/rooted-cyber/upload/raw/master/ngrok > /dev/null 2>&1
+wget https://github.com/rooted-cyber/upload/raw/master/ngrok.zip > /dev/null 2>&1
+sleep 1
+echo -e "\033[96m Unzip ngrok.zip......."
+unzip ngrok.zip
 sleep 1
 echo -e "\033[94m [-] Installing ngrok......"
 sleep 2
@@ -74,6 +77,7 @@ rm -f ngrok
 sleep 1
 echo
 echo -e "\033[96m [+] Successfully Installed"
+sleep 1
 printf "\n \033[93m If you want install ngrok any tool\n\n \033[96m Press enter"
 read
 ngrok_server
