@@ -1,6 +1,8 @@
 ngrok_server() {
 	clear
-	toilet -F gay Ngrok
+	cd ~/Install-Ngrok
+	if [ -e ngrok ];then
+	figlet Ngrok | toilet -F gay -f term
 	echo
 	printf "	\033[91m [ 1 ] \033[92mHiddenEye\n"
 	printf "	\033[91m [ 2 ] \033[92mShellphish\n"
@@ -37,11 +39,27 @@ ngrok_server() {
 	sleep 3
 	printf "\033[92m [+] Installed successfull"
 	fi
+	else
+	printf "\033[91m\n\n Please download ngrok and try again !!\n\n"
+	fi
 	}
 	
 	clear
+	cd ~/Install-Ngrok
+	if [ -e ngrok ];then
+	ngrok_server
+	else
+	rm -f ngrok.zip > /dev/null 2>&1
+	clear
 printf "\033[92m [+] Downloading requirements\n"
-pkg install toilet
+sleep 1
+apt update
+apt upgrade
+apt install figlet
+apt install toilet
+apt install wget
+clear
+fi
 printf "\033[93m Download complete"
 sleep 1
 clear
@@ -58,7 +76,7 @@ echo
 echo -e "\033[92m [+] Installing requirement"
 echo
 sleep 2
-command -v wget > /dev/null 2>&1 || pkg install wget
+#command -v wget > /dev/null 2>&1 || pkg install wget
 echo
 sleep 1
 echo -e "\033[93m [+] Downloading ngrok......"
@@ -86,4 +104,7 @@ if [ "$a" = "n" ];then
 printf "\033[92m If you want install ngrok in any tool \n \033[96m press enter"
 read
 ngrok_server
+fi
+if [ "$a" = "*" ];then
+echo "hi"
 fi
