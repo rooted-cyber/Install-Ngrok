@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $PREFIX/share/figlet
 if [ -e font.flf ];then
 echo
@@ -13,6 +14,7 @@ cd ~/Install-Ngrok
 cp font.flf $PREFIX/share/figlet
 printf "\033[1;93m Download complete"
 fi
+menu() {
 figlet -f font Ngrok|toilet -f term -F metal
 echo
 echo "========================================"|toilet -f term -F gay
@@ -23,8 +25,8 @@ echo "========================================"|toilet -f term -F gay
 echo
 echo -e -n "\033[1;93m Do you want to install ngrok\033[91m (\033[92my\033[96m/\033[94mn\033[91m) "
 read a
-if [ "$a" = "y" ];then
-echo
+case $a in
+y|Y)
 echo -e "\033[1;92m [+] Installing requirement"
 echo
 sleep 2
@@ -52,4 +54,9 @@ echo -e "\033[1;96m [+] Successfully Installed"
 echo
 echo
 toilet -f font Exit 
-exit
+exit ;;
+n|N)exit ;;
+*)menu ;;
+esac
+}
+menu
