@@ -24,10 +24,7 @@
 
  
 
- ## Whatsapp Group :https://chat.whatsapp.com/BdCWDT2g35y67yV8DNHvfa
-
- 
-
+ ## 
  
 
 
