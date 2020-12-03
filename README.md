@@ -18,7 +18,8 @@
 
  ## Telegram Group :https://t.me/rootedcyber1
 
- 
+ ## Re-Open Whatsapp Group : https://chat.whatsapp.com/JH8SqlhcIeX0IeC1t2RWmu
+
 
  ## Telegram 2nd ID :https://t.me/rootedcyber2
 
