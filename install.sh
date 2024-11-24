@@ -1,12 +1,12 @@
 ngi() {
-		cd ~/Ins*Ng*
-	crf
+	cd ~/Ins*Ng*
 	tar -xvzf ngrok*tgz -C ngrok
 	cd ngrok
 	chmod 777 ngrok
 	cp ngrok $PREFIX/bin
 	msg now installed ngrok
 	msg
+        msg Get Authtoken : ogin and open this : https://dashboard.ngrok.com/get-started/your-authtoken
 	msg Now installing ngrok authtoken
 	echo -en "$(random) Enter ngrok authtoken :\033[0m "
 	read n
