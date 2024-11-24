@@ -12,20 +12,13 @@
 
  ## Instagram ID :www.instagram.com/rootedcyber
 
- ## Telegram 1st ID :https://t.me/rootedcyber
+ ## My Telegram ID :https://t.me/rootedcyber
 
  
 
- ## Telegram Group :https://t.me/rootedcyber1
+ ## Telegram Group :
+ https://t.me/+n8u2GAyzcg00NmFl
 
- ## Re-Open Whatsapp Group : https://chat.whatsapp.com/JH8SqlhcIeX0IeC1t2RWmu
-
-
- ## Telegram 2nd ID :https://t.me/rootedcyber2
-
- 
-
- ## 
  
 
 
